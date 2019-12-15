@@ -15,7 +15,7 @@ pipeline{
 	stages {
 	       	stage("Preparations") {
 			                steps{
-						ipconfig	
+						cmd 'ipconfig'	
 						}
 					}
 
